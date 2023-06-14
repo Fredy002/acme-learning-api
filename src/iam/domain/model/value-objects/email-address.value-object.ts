@@ -1,6 +1,6 @@
 import { Column } from 'typeorm';
 
 export class EmailAddress {
-  @column({ name: 'address' })
+  @Column({ name: 'address' })
   address: string;
 }
